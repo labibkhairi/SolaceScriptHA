@@ -18,6 +18,7 @@ sudo rm -rf /opt/vmr/var
 sudo rm -rf /opt/vmr/adb
 sudo ls -la /opt/vmr/
 
+#make directory
 sudo mkdir -p /opt/vmr/internalSpool
 sudo mkdir -p /opt/vmr/diags
 sudo mkdir -p /opt/vmr/jail
