@@ -1,10 +1,10 @@
 # SolaceScriptHA
 
-Shell script for installing Solace in HA
+Shell script for installing Solace in HA Active Standby
 
 Note:
 
-solace-primary is hostname of active node, solace-backup is hostname of backup node, solace-monitoring is hostname of monitoring node
+solace-primary is hostname of active node, solace-backup is hostname of standby node, solace-monitoring is hostname of monitoring node
 
 Run Solace Primary
 
