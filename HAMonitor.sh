@@ -1,7 +1,7 @@
 sudo groupadd -g 501 solgroup
 sudo useradd -u 1001 -g 501 sysadmin
 sudo useradd -u 1001 -g 501 sysadmin
-sudo passwd sysadmin
+#sudo passwd sysadmin
 sudo usermod -aG solgroup sysadmin
 
 #you can remove lines 10-21 if this is a fresh environment; otherwise remove the existing instance and externalize volumes
