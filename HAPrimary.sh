@@ -1,3 +1,4 @@
+#Add user
 groupadd -g 501 solgroup
 useradd -u 1001 -g 501 sysadmin
 sudo useradd -u 1001 -g 501 sysadmin
